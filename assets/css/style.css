@@ -1,0 +1,114 @@
+body{
+    color: black;
+    display: block;
+    background-color: #564e58;/*rgb(105, 87, 117);*/
+    border: white;
+}
+
+header{
+    justify-content: space-between;
+    display: flex;
+    background-color: #564e58;
+    margin: 10px 30px;
+    padding: 6px;
+}
+header h1{
+    background-color: #bfb48f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    border-style: solid;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header nav h2{
+    display: flex;
+    padding: 1%;
+    justify-content: center;
+    margin: 15px 20px;
+    padding: 6px;
+    background-color: #bfb48f;
+    text-decoration: none;
+    border-style: solid;
+
+}
+
+.aboutMeSection{
+    display: block;
+    background-color: #564e58;
+    margin: 15px 30px;
+    padding: 6px;
+    justify-content: center;
+}
+.aboutMeSection h2{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    background-color: tan;
+}
+.aboutMeSection p{
+    text-align: center;
+    justify-content: center;
+    background-color: #bfb48f;
+    flex-wrap: wrap;
+    font-size: 125%;
+}
+.aboutMeSection img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 15%;
+    height: auto;
+    border-style: solid;
+}
+.workSection{
+    display: block;
+    background-color: #904e55;
+    margin: 15px 30px;
+    padding: 6px;
+}
+.workSection h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.workSection .workContainer .firstProj img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
+.workSection .workContainer .otherProj img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30%;
+    height: auto;
+}
+.workSection .workContainer figcaption{
+    text-align: center;
+}
+.contactSection{
+    display: block;
+    background-color: #904e55;
+    margin: 15px 30px;
+    padding: 6px;
+    align-items: center;
+}
+.contactSection a{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+@media screen and (max-width: 768px) {
+    body,nav, header {
+      flex-direction: column;
+    }
+}
